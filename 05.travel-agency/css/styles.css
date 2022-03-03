@@ -1,0 +1,35 @@
+* {
+    border: 1px red solid;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+header {
+    background-color: cadetblue;
+    display:flex;
+    justify-content: space-around;
+}
+
+#logo {
+    display:inline-block;
+    width: 24%;
+}
+
+#main-menu {
+    display: flex;
+    align-items: flex-end;
+}
+
+#main-menu ul {
+    padding: 0;
+}
+
+#main-menu li {
+    display:inline;
+    font-size: 24px;
+    margin-right: 10px;
+}
