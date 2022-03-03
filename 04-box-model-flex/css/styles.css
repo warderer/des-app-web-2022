@@ -2,6 +2,10 @@
     border: 1px red solid;
 }
 
+body {
+    margin:0;
+}
+
 /*
 Padding nos sirve para dar un espaciado interior a los elementos y dejarlos "respirar"
 */
@@ -12,6 +16,10 @@ h1 {
     puedo dar valor a cada lado por separado
     */
     padding: 10px 20px 12px 15px;
+    margin: 10px;
+    border-bottom: 4px red dotted;
+
+    display:block;
 }
 
 h2 {
@@ -21,6 +29,8 @@ h2 {
     El segundo valor corresponde a right y left
     */
     padding: 20px 10px;
+    display:inline-block;
+    margin-top:40px;
 }
 
 p {
