@@ -1,0 +1,29 @@
+* {
+    border: 1px red solid;
+}
+
+/*
+Padding nos sirve para dar un espaciado interior a los elementos y dejarlos "respirar"
+*/
+
+h1 {
+    background-color: lightsteelblue;
+    /* top right bottom left 
+    puedo dar valor a cada lado por separado
+    */
+    padding: 10px 20px 12px 15px;
+}
+
+h2 {
+    background-color: bisque;
+    /* 
+    El primer valor corresponde a top y bottom
+    El segundo valor corresponde a right y left
+    */
+    padding: 20px 10px;
+}
+
+p {
+    background-color: darkcyan;
+    padding: 15px; /* Padding en todas direcciones */
+}
