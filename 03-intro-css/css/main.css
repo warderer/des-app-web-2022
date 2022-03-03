@@ -1,3 +1,22 @@
+body {
+    background:blanchedalmond;
+}
+
 p {
-    color:coral;
+    color:rgb(80, 80, 255);
+}
+
+/* Añado estilos usando clases, añado un . */
+.who-is-text {
+    font-size:40px;
+    font-weight: bold;
+}
+
+/* Añado estilos usando id, añado un # */
+#poke-info{
+    background-color: goldenrod;
+}
+
+section p {
+    font-size: 10px;
 }
